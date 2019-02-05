@@ -1,0 +1,8 @@
+[Unit]
+Description=Download vocaloid YT playlist
+
+[Timer]
+OnCalendar=Sun,Mon,Tue,Wed,Thu *-*-* 0,12:30:00
+
+[Install]
+WantedBy=timers.target
