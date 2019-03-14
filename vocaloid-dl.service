@@ -2,8 +2,8 @@
 Description=Download vocaloid YT playlist
 
 [Service]
-User=lbs
+User=kaito
 Type=oneshot
-WorkingDirectory=/media/lbs/yolo/lbs/vocaloid-compilation-2
-ExecStart=-/home/lbs/.local/bin/youtube-dl --ignore-errors https://www.youtube.com/playlist?list=PLGV14pE6I8RcFBzzW74eiij2jFueG-vAz
+WorkingDirectory=/home/kaito/vocaloid
+ExecStart=-/usr/local/bin/youtube-dl --ignore-errors https://www.youtube.com/playlist?list=PLGV14pE6I8RcFBzzW74eiij2jFueG-vAz
 
